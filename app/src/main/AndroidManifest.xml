@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sdfd_admin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SDFDadmin">
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Hear.HearUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".Hear.HearAdd"
+            android:exported="true" />
+        <activity
+            android:name=".Hear.HearActivity"
+            android:exported="true" />
+        <activity
+            android:name=".weightloss.WeightLossUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".weightloss.WeightLossAdd"
+            android:exported="true" />
+        <activity
+            android:name=".weightloss.WeightLossActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.SDFDadmin.NoActionBar" />
+        <activity
+            android:name=".Diabetes.DiabeteUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".Diabetes.DiabeteAdd"
+            android:exported="true" />
+        <activity
+            android:name=".Diabetes.DiabeteActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Popular.PopularAdd"
+            android:exported="true" />
+        <activity
+            android:name=".Popular.PopularUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".Popular.PopularActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

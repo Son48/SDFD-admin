@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "739279718687",
+    "firebase_url": "https://sdfd-cd0f2-default-rtdb.firebaseio.com",
+    "project_id": "sdfd-cd0f2",
+    "storage_bucket": "sdfd-cd0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739279718687:android:15bdfbbc89cf44ac9d482a",
+        "android_client_info": {
+          "package_name": "com.example.adminsdfd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739279718687-3dgnt7vh9uiog1tr3he7qk07rt385jla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXaX9Fc0tXCjDV4FRfApc3WZUn3nxn26U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739279718687-3dgnt7vh9uiog1tr3he7qk07rt385jla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739279718687:android:171d0ba4042b9aa59d482a",
+        "android_client_info": {
+          "package_name": "com.example.sdfd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739279718687-3dgnt7vh9uiog1tr3he7qk07rt385jla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXaX9Fc0tXCjDV4FRfApc3WZUn3nxn26U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739279718687-3dgnt7vh9uiog1tr3he7qk07rt385jla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739279718687:android:3aca06230536efb49d482a",
+        "android_client_info": {
+          "package_name": "com.example.sdfd_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739279718687-3dgnt7vh9uiog1tr3he7qk07rt385jla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXaX9Fc0tXCjDV4FRfApc3WZUn3nxn26U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739279718687-3dgnt7vh9uiog1tr3he7qk07rt385jla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
