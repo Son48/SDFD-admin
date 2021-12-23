@@ -54,7 +54,7 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
-        btn3.setOnClickListener(new View.OnClickListener() {
+        btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent =new Intent(getActivity(), DiabeteActivity.class);

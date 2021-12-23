@@ -13,10 +13,7 @@ public class HearModel implements Serializable {
     String time;
 
     @Exclude
-    private String hearid;
-
-    public HearModel() {
-    }
+    private String hearId;
 
     public HearModel(String name, String description, int calo, String img_url, String type, String time) {
         this.name = name;
@@ -75,11 +72,14 @@ public class HearModel implements Serializable {
         this.time = time;
     }
 
-    public String getHearid() {
-        return hearid;
+    public String getHearId() {
+        return hearId;
     }
 
-    public void setHearid(String hearid) {
-        this.hearid = hearid;
+    public void setHearId(String hearId) {
+        this.hearId = hearId;
+    }
+
+    public HearModel() {
     }
 }

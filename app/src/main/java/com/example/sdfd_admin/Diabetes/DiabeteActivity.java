@@ -37,6 +37,7 @@ public class DiabeteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_diabete);
         progressBar = findViewById(R.id.progressbar1);
         recyclerView = findViewById(R.id.diabete_rec);
+        db = FirebaseFirestore.getInstance();
         adddia=findViewById(R.id.add_diabetep);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new GridLayoutManager(this,2));
@@ -45,7 +46,7 @@ public class DiabeteActivity extends AppCompatActivity {
         diabeteAdapter = new DiabeteAdapter(this, diabeteModels);
 
         recyclerView.setAdapter(diabeteAdapter);
-        db = FirebaseFirestore.getInstance();
+
 
         adddia.setOnClickListener(new View.OnClickListener() {
             @Override

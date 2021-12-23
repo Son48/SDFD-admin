@@ -54,7 +54,7 @@ public class HearActivity extends AppCompatActivity {
             }
         });
 
-        db.collection("ViewAllHeart").get()
+        db.collection("Heart-related diseaes").get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
                     @Override
                     public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
@@ -68,7 +68,7 @@ public class HearActivity extends AppCompatActivity {
                             for (DocumentSnapshot d : list) {
 
                                 HearModel p = d.toObject(HearModel.class);
-                                p.setHearid(d.getId());
+                                p.setHearId(d.getId());
                                 hearModels.add(p);
 
                             }
